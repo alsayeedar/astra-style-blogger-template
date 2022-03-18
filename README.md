@@ -1,2 +1,2 @@
-# astra-style-blogger-template
+# Astra Style Blogger Bemplate
 A custom blogger template looks like Astra WordPress magazine theme.
