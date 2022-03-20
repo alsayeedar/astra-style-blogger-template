@@ -1107,7 +1107,7 @@ body#layout .theme-options{display:block!important}
       <b:include cond='data:view.isPost' name='abcsinglepostmeta'/>
       <b:include name='abcsinglepostbody'/>
     </article>
-    <b:include cond='data:view.isPost' name='abcsinglepostauthor'/>
+    <b:include cond='data:view.isPost and data:allBylineItems.author' data='post' name='abcsinglepostauthor'/>
     <b:include cond='data:view.isSingleItem' data='post' name='commentPicker'/>
   </b:includable>
           <b:includable id='abcsinglepostmeta'>
