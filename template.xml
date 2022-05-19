@@ -664,6 +664,15 @@ th {
 footer div#ContactForm1 {
     display: none!important;
 }
+.widget-area .LinkList ul li {
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 1.5em;
+    border-left: 4px solid #2AD087;
+    padding-left: 16px;
+    line-height: 30px;
+    list-style: none;
+}
     ]]></b:skin>
     <b:if cond='data:view.isLayoutMode'>
     <b:template-skin><![CDATA[
