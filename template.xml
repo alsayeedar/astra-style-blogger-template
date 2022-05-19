@@ -673,6 +673,9 @@ footer div#ContactForm1 {
     line-height: 30px;
     list-style: none;
 }
+.widget-area .LinkList ul li a {
+    font-weight: 600;
+}
     ]]></b:skin>
     <b:if cond='data:view.isLayoutMode'>
     <b:template-skin><![CDATA[
